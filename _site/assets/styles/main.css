@@ -7,14 +7,14 @@
 .sidebar-wrapper { background-color: #e9ecef; }
 
 .sidebar__link__darkGray { color: #343a40 !important; }
-.sidebar__link__darkGray:hover { color: #1e5b96 !important; }
+.sidebar__link__darkGray:hover { color: #034482 !important; }
 
 .row { margin: auto !important; }
 
-.active { background-color: transparent !important; color: #2b89d6 !important; font-weight: bold; }
-.active * { color: #2b89d6 !important; }
+.active { background-color: transparent !important; color: #C71438 !important; font-weight: bold; }
+.active * { color: #C71438 !important; }
 
-.rp-navbar__top { background-color: #1e5b96; }
+.rp-navbar__top { background-color: #034482; }
 
 .rb-sidebar__1 { background-color: #f1f3f5; }
 
@@ -37,14 +37,14 @@
 @media screen and (max-width: 991px) { .hidden-sm { display: none !important; } }
 .color { height: 100px; }
 
-.grid { height: 100px; background-color: #1e5b96; border-radius: 7px; }
+.grid { height: 100px; background-color: #034482; border-radius: 7px; }
 .grid span { margin: 10px 10px 10px 10px; color: white; }
 
 .icon { font-size: 20px; background-color: #e9ecef; padding: 20px; }
 
-.background-primary { background-color: #1e5b96; }
+.background-primary { background-color: #034482; }
 
-.background-secondary { background-color: #2b89d6; }
+.background-secondary { background-color: #C71438; }
 
 .background-gray-0 { background-color: #f8f9fa; }
 
@@ -66,9 +66,9 @@
 
 .background-gray-9 { background-color: #212529; }
 
-.color-primary { color: #1e5b96; }
+.color-primary { color: #034482; }
 
-.color-secondary { color: #2b89d6; }
+.color-secondary { color: #C71438; }
 
 .color-gray-2 { color: #868e96; }
 
@@ -76,24 +76,24 @@
 
 .rb-isBold { font-weight: bold; }
 
-.btn-primary { background-color: #1e5b96 !important; }
-.btn-primary:hover { background-color: #2b89d6 !important; }
+.btn-primary { background-color: #034482 !important; }
+.btn-primary:hover { background-color: #C71438 !important; }
 
-.btn-outline-primary { border-color: #1e5b96 !important; color: #1e5b96 !important; }
-.btn-outline-primary:hover { background-color: #1e5b96 !important; color: white !important; }
+.btn-outline-primary { border-color: #034482 !important; color: #034482 !important; }
+.btn-outline-primary:hover { background-color: #034482 !important; color: white !important; }
 
-.btn-link { color: #1e5b96 !important; }
-.btn-link:hover { color: #2b89d6 !important; }
+.btn-link { color: #034482 !important; }
+.btn-link:hover { color: #C71438 !important; }
 
-.badge-primary { background-color: #1e5b96 !important; }
+.badge-primary { background-color: #034482 !important; }
 
-.badge-secondary { background-color: #2b89d6 !important; }
+.badge-secondary { background-color: #C71438 !important; }
 
-.rb-link { color: #1e5b96 !important; }
-.rb-link:hover { color: #2b89d6 !important; }
+.rb-link { color: #034482 !important; }
+.rb-link:hover { color: #C71438 !important; }
 
-.rb-paginate-active { background-color: #1e5b96 !important; color: white !important; }
-.rb-paginate-active:hover { background-color: #2b89d6 !important; }
+.rb-paginate-active { background-color: #034482 !important; color: white !important; }
+.rb-paginate-active:hover { background-color: #C71438 !important; }
 
 .table-striped > tbody > tr:nth-child(2n+1) > td, .table-striped > tbody > tr:nth-child(2n+1) > th { background-color: #f1f3f5 !important; }
 
