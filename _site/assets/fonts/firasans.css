@@ -1,0 +1,71 @@
+@font-face {
+  font-family: Fira Mono;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  src: url(/assets/fonts/firamono-regular-webfont.woff2) format("woff2")
+}
+
+@font-face {
+  font-family: Fira Mono;
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+  src: url(/assets/fonts/firamono-medium-webfont.woff2) format("woff2")
+}
+
+@font-face {
+  font-family: Fira Mono;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  src: url(/assets/fonts/firamono-bold-webfont.woff2) format("woff2")
+}
+
+@font-face {
+  font-family: Fira Sans;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  src: url(/assets/fonts/firasans-light-webfont.woff2) format("woff2")
+}
+
+@font-face {
+  font-family: Fira Sans;
+  font-weight: 300;
+  font-style: italic;
+  font-stretch: normal;
+  src: url(/assets/fonts/firasans-lightitalic-webfont.woff2) format("woff2")
+}
+
+@font-face {
+  font-family: Fira Sans;
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+  src: url(/assets/fonts/firasans-book-webfont.woff2) format("woff2")
+}
+
+@font-face {
+  font-family: Fira Sans;
+  font-weight: 400;
+  font-style: italic;
+  font-stretch: normal;
+  src: url(/assets/fonts/firasans-bookitalic-webfont.woff2) format("woff2")
+}
+
+@font-face {
+  font-family: Fira Sans;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  src: url(/assets/fonts/firasans-medium-webfont.woff2) format("woff2")
+}
+
+@font-face {
+  font-family: Fira Sans;
+  font-weight: 600;
+  font-style: italic;
+  font-stretch: normal;
+  src: url(/assets/fonts/firasans-mediumitalic-webfont.woff2) format("woff2")
+}
