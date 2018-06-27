@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  {% include head.html %}
+  <body>
+    {% include navbar.html %}
+    <div class="row">
+      <div class="col-md-3 col-sm-5 hidden-sm p-0">
+        <div class="row" style="height: 100%">
+          <div class="col-md-6 col-sm-6 col-xs-6 p-0">
+            {% include navbar_side.html sidebarClassName="rb-sidebar__1" %}
+          </div>
+          <div class="col-md-6 col-sm-6 col-xs-6 p-0">
+            {% include sidebar.html sidebarClassName="rb-sidebar__2" %}
+          </div>
+        </div>
+      </div>
+        <div class="col-md-9 col-xl-9 col-sm-12 col-xs-12 p-5">
+          <h1>Visuals</h1>
+          {{ content }}
+          {% include /visuals/colors.html participants=site.data.profiles %}
+          {% include /visuals/grid.html participants=site.data.profiles %}
+          {% include /visuals/typography.html participants=site.data.profiles %}
+          {% include /visuals/assets.html participants=site.data.profiles %}
+          {% include scrollspy.html %}
+          {% include scripts.html %}
+      </div>
+    </div>
+  </body>
+</html>

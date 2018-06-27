@@ -1,0 +1,128 @@
+.navbar {
+  // background-color: $primary !important;
+}
+
+.background-primary {
+  background-color: $primary;
+}
+
+.background-secondary {
+  background-color: $secondary;
+}
+
+.background-gray-0 {
+  background-color: $oc-gray-0;
+}
+
+.background-gray-1 {
+  background-color: $oc-gray-1;
+}
+
+.background-gray-2 {
+  background-color: $oc-gray-2;
+}
+
+.background-gray-3 {
+  background-color: $oc-gray-3;
+}
+
+.background-gray-4 {
+  background-color: $oc-gray-4;
+}
+
+.background-gray-5 {
+  background-color: $oc-gray-5;
+}
+
+.background-gray-6 {
+  background-color: $oc-gray-6;
+}
+
+.background-gray-7 {
+  background-color: $oc-gray-7;
+}
+.background-gray-8 {
+  background-color: $oc-gray-8;
+}
+
+.background-gray-9 {
+  background-color: $oc-gray-9;
+}
+
+.color-primary {
+  color: $primary
+}
+
+.color-secondary {
+  color: $secondary;
+}
+
+.color-gray-2 {
+  color: $oc-gray-6;
+}
+
+.rb-code {
+  font-family: 'Overpass Mono', monospace !important;
+}
+
+.rb-isBold {
+  font-weight: bold;
+}
+
+.btn-primary {
+  background-color: $primary !important;
+  &:hover {
+    background-color: $secondary !important;
+  }
+}
+
+.btn-outline-primary {
+  border-color: $primary !important;
+  color: $primary !important;
+
+  &:hover {
+    background-color: $primary !important;
+    color: white !important;
+  }
+}
+
+.btn-link {
+  color: $primary !important;
+
+  &:hover {
+    color: $secondary !important;
+  }
+}
+
+.badge-primary {
+  background-color: $primary !important;
+}
+
+.badge-secondary {
+  background-color: $secondary !important;
+}
+
+.rb-link {
+  color: $primary !important;
+  &:hover {
+    color: $secondary !important;
+  }
+}
+
+.rb-paginate-active {
+  background-color: $primary !important;
+  color: white !important;
+
+  &:hover {
+    background-color: $secondary !important;
+  }
+}
+
+.table-striped > tbody > tr:nth-child(2n+1) > td, .table-striped > tbody > tr:nth-child(2n+1) > th {
+  background-color: $oc-gray-1 !important;
+}
+
+.mark, mark {
+  background-color: $oc-gray-2 !important;
+  padding: .2em !important;
+}

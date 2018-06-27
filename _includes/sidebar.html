@@ -1,0 +1,11 @@
+<div class="sidebar border-left-right {{ include.sidebarClassName }}" id="sidebar">
+  <ul class="list-group padding-top-35">
+    {% for sidebar_hash in page.sidebar %}
+      {% for link in sidebar_hash %}
+        <li class="list-group-item rb-sidebar">
+          <a href="#{{ link[0] }}" class="sidebar__link__darkGray">{{ link[1] }}</a>
+        </li>
+      {% endfor %}
+    {% endfor %}
+  </ul>
+</div>

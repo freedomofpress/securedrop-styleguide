@@ -1,0 +1,108 @@
+.border-left-right { border-left: 1px solid #dee2e6 !important; border-right: 1px solid #dee2e6 !important; }
+
+.sidebar { min-height: 100vh; height: 100%; width: 100%; }
+.sidebar .list-group { position: fixed; }
+.sidebar .list-group-item { background-color: transparent; border: 0; border-radius: 0 !important; }
+
+.sidebar-wrapper { background-color: #e9ecef; }
+
+.sidebar__link__darkGray { color: #343a40 !important; }
+.sidebar__link__darkGray:hover { color: #1e5b96 !important; }
+
+.row { margin: auto !important; }
+
+.active { background-color: transparent !important; color: #2b89d6 !important; font-weight: bold; }
+.active * { color: #2b89d6 !important; }
+
+.rp-navbar__top { background-color: #1e5b96; }
+
+.rb-sidebar__1 { background-color: #f1f3f5; }
+
+.rb-sidebar__2 { background-color: #f8f9fa; }
+
+.rb-contain { width: 100%; height: auto; max-height: 100%; }
+
+.max-width-150 { max-width: 150px; }
+
+.padding-top-35 { padding-top: 35px !important; }
+
+.padding-top-18 { padding-top: 18px; }
+
+.align-horizontally { display: flex; align-items: center; }
+
+.flex-space-between { justify-content: space-between; }
+
+.hidden-sm { display: block; }
+
+@media screen and (max-width: 991px) { .hidden-sm { display: none !important; } }
+.color { height: 100px; }
+
+.grid { height: 100px; background-color: #1e5b96; border-radius: 7px; }
+.grid span { margin: 10px 10px 10px 10px; color: white; }
+
+.icon { font-size: 20px; background-color: #e9ecef; padding: 20px; }
+
+.background-primary { background-color: #1e5b96; }
+
+.background-secondary { background-color: #2b89d6; }
+
+.background-gray-0 { background-color: #f8f9fa; }
+
+.background-gray-1 { background-color: #f1f3f5; }
+
+.background-gray-2 { background-color: #e9ecef; }
+
+.background-gray-3 { background-color: #dee2e6; }
+
+.background-gray-4 { background-color: #ced4da; }
+
+.background-gray-5 { background-color: #adb5bd; }
+
+.background-gray-6 { background-color: #868e96; }
+
+.background-gray-7 { background-color: #495057; }
+
+.background-gray-8 { background-color: #343a40; }
+
+.background-gray-9 { background-color: #212529; }
+
+.color-primary { color: #1e5b96; }
+
+.color-secondary { color: #2b89d6; }
+
+.color-gray-2 { color: #868e96; }
+
+.rb-code { font-family: 'Overpass Mono', monospace !important; }
+
+.rb-isBold { font-weight: bold; }
+
+.btn-primary { background-color: #1e5b96 !important; }
+.btn-primary:hover { background-color: #2b89d6 !important; }
+
+.btn-outline-primary { border-color: #1e5b96 !important; color: #1e5b96 !important; }
+.btn-outline-primary:hover { background-color: #1e5b96 !important; color: white !important; }
+
+.btn-link { color: #1e5b96 !important; }
+.btn-link:hover { color: #2b89d6 !important; }
+
+.badge-primary { background-color: #1e5b96 !important; }
+
+.badge-secondary { background-color: #2b89d6 !important; }
+
+.rb-link { color: #1e5b96 !important; }
+.rb-link:hover { color: #2b89d6 !important; }
+
+.rb-paginate-active { background-color: #1e5b96 !important; color: white !important; }
+.rb-paginate-active:hover { background-color: #2b89d6 !important; }
+
+.table-striped > tbody > tr:nth-child(2n+1) > td, .table-striped > tbody > tr:nth-child(2n+1) > th { background-color: #f1f3f5 !important; }
+
+.mark, mark { background-color: #e9ecef !important; padding: .2em !important; }
+
+@media (min-width: 992px) { .display-xs { display: none !important; } }
+@media (max-width: 992px) { .display-md { display: none !important; } }
+.display-md { display: unset; }
+
+body { font-family: "Overpass", sans-serif !important; }
+
+a { text-decoration: none !important; }

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+{% include head.html %}
+<body>
+{% include navbar.html %}
+<div class="row">
+    <div class="col-md-3 hidden-sm p-0">
+        <div class="row" style="height: 100%">
+            <div class="col-md-6 col-sm-16 col-xs-12 p-0">
+                {% include navbar_side.html sidebarClassName="rb-sidebar__1" %}
+            </div>
+            <div class="col-md-6 col-sm-12 col-xs-3 p-0">
+                {% include sidebar.html sidebarClassName="rb-sidebar__2" %}
+            </div>
+        </div>
+    </div>
+    <div class="col-md-9 col-xl-9 col-sm-12 col-xs-12 p-md-5">
+        <!--{{ content }}-->
+        {% include components/buttons.html %}
+        {% include components/badges.html %}
+        {% include components/forms.html %}
+        {% include components/tables.html %}
+        {% include components/cards.html %}
+        {% include components/paginate.html %}
+        {% include components/alerts.html %}
+    {% include scrollspy.html %}
+    </div>
+</div>
+{% include scripts.html %}
+</body>
+</html>

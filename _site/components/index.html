@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title>Reproducible Builds</title>
+  <link rel="stylesheet" href="/reproducible-builds-styleguide/assets/styles/main.css">
+  <link rel="shortcut icon" type="image/png" href="/reproducible-builds-styleguide/assets/images/favicon.png"/>
+  <link href="/reproducible-builds-styleguide/assets/fonts/overpass.css" rel="stylesheet">
+  <link href="/reproducible-builds-styleguide/assets/fonts/overpass-mono.css" rel="stylesheet">
+  <link rel="stylesheet" href="/reproducible-builds-styleguide/assets/static/open-iconic-bootstrap.css" />
+  <link rel="stylesheet" href="/reproducible-builds-styleguide/assets/static/bootstrap.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+<nav class="navbar navbar-expand-lg navbar-light sticky-top rp-navbar__top">
+  <a class="navbar-brand" href="https://reproducible-builds.org/">
+    <img src="/reproducible-builds-styleguide/assets/images/logo-text-white.png"  height="30" width="auto" alt=""></img>
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+    <div class="collapse navbar-collapse " id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto display-xs">
+        <li class="nav-item">
+          <a class="nav-link" href="/reproducible-builds-styleguide/">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/reproducible-builds-styleguide/getting-started">Getting Started</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/reproducible-builds-styleguide/visuals/">Visuals</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/reproducible-builds-styleguide/components/">Components</a>
+        </li>
+      </ul>
+    </div>
+</nav>
+
+<div class="row">
+    <div class="col-md-3 hidden-sm p-0">
+        <div class="row" style="height: 100%">
+            <div class="col-md-6 col-sm-16 col-xs-12 p-0">
+                <div class="sidebar rb-sidebar__1" id="sidebar1">
+  <ul class="list-group">
+    <li class="list-group-item rb-main-sidebar pt-5">
+      <a href="/reproducible-builds-styleguide/" class="sidebar__link__darkGray">About</a>
+    </li>
+
+    <li class="list-group-item rb-main-sidebar">
+      <a href="/reproducible-builds-styleguide/getting-started/" class="sidebar__link__darkGray">Getting Started</a>
+    </li>
+
+    <li class="list-group-item rb-main-sidebar">
+      <a href="/reproducible-builds-styleguide/visuals/" class="sidebar__link__darkGray">Visuals</a>
+    </li>
+
+    <li class="list-group-item rb-main-sidebar">
+      <a href="/reproducible-builds-styleguide/components/" class="sidebar__link__darkGray">Components</a>
+    </li>
+  </ul>
+</div>
+
+            </div>
+            <div class="col-md-6 col-sm-12 col-xs-3 p-0">
+                <div class="sidebar border-left-right rb-sidebar__2" id="sidebar">
+  <ul class="list-group padding-top-35">
+    
+      
+        <li class="list-group-item rb-sidebar">
+          <a href="#buttons" class="sidebar__link__darkGray">Buttons</a>
+        </li>
+      
+    
+      
+        <li class="list-group-item rb-sidebar">
+          <a href="#badges" class="sidebar__link__darkGray">Badges</a>
+        </li>
+      
+    
+      
+        <li class="list-group-item rb-sidebar">
+          <a href="#forms" class="sidebar__link__darkGray">Forms</a>
+        </li>
+      
+    
+      
+        <li class="list-group-item rb-sidebar">
+          <a href="#tables" class="sidebar__link__darkGray">Tables</a>
+        </li>
+      
+    
+      
+        <li class="list-group-item rb-sidebar">
+          <a href="#cards" class="sidebar__link__darkGray">Cards</a>
+        </li>
+      
+    
+      
+        <li class="list-group-item rb-sidebar">
+          <a href="#scrollspy" class="sidebar__link__darkGray">Scrollspy</a>
+        </li>
+      
+    
+  </ul>
+</div>
+
+            </div>
+        </div>
+    </div>
+    <div class="col-md-9 col-xl-9 col-sm-12 col-xs-12 p-md-5">
+        <!--<p>This is the components page</p>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+-->
+        <div id="buttons" class="mb-4">
+    <h3>Buttons</h3>
+    <!--p class="text-muted">Some Description about buttons.</p-->
+</div>
+<div class="row bg-light p-5">
+    <div class="col-xs-12 col-sm-6 col-md-6 p-1">
+        <p class="text-black small text-muted m-0 pb-2">Primary</p>
+        <button type="button" class="btn btn-lg btn-primary mr-2">Primary</button>
+        <p class="text-black small text-muted m-0 pt-2 pb-2">Ghost</p>
+        <button type="button" class="btn btn-lg btn-outline-primary mr-2">How to Contribute</button>
+        <p class="text-black small text-muted m-0 pt-2">Link</p>
+        <button type="button" class="btn btn-lg btn-link mr-2">Learn more</button>
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-6 p-1">
+        <p class="text-black small text-muted m-0 pt-2 pb-2">Medium</p>
+        <button type="button" class="btn btn-primary mr-2">Primary</button>
+        <button type="button" class="btn btn-outline-primary mr-2">Ghost</button>
+        <button type="button" class="btn btn-link mr-2">Link</button>
+        <p class="text-black small text-muted m-0 pt-2 pb-2">Small</p>
+        <button type="button" class="btn btn-sm btn-primary mr-2">Primary</button>
+        <button type="button" class="btn btn-sm btn-outline-primary mr-2">Ghost</button>
+        <button type="button" class="btn btn-sm btn-link mr-2">Link</button>
+    </div>
+</div>
+
+        <h1 id="badges"> </h1>
+<div class="page-header mb-4 mt-5">
+    <h3>Badges</h3>
+    <!--p class="text-muted">Some Description about badges.</p-->
+</div>
+<div class="row p-5 bg-light">
+    <div class="col-12">
+        <h2>Example heading <span class="badge badge-primary">New</span></h2>
+    </div>
+    <div class="col-12">
+        <h4 class="pt-4">Example heading <span class="badge badge-secondary">New</span></h4>
+    </div>
+    <div class="col-12">
+        <h6 class="pt-4">Example heading <span class="badge-pill badge-primary">New</span></h6>
+    </div>
+</div>
+        <h1 id="forms"> </h1>
+<div class="page-header mb-4 mt-5">
+    <h3>Forms</h3>
+    <!--p class="text-muted">Some Description about Forms.</p-->
+</div>
+<div class="row">
+    <form class="bg-light p-5 col-sm-6">
+        <div class="form-group">
+            <label for="exampleInputEmail1">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+        </div>
+        <div class="form-group">
+            <label for="exampleInputPassword1">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+        </div>
+        <div class="form-check">
+            <label class="form-check-label">
+                <input type="checkbox" class="form-check-input">
+                Check me out
+            </label>
+        </div>
+        <button type="submit" class="btn btn-primary mt-4" onclick="return false;">Submit</button>
+    </form>
+</div>
+
+        <div class="mt-5" id="tables">
+    <h1>Tables</h1>
+    <div class="row mt-5">
+        <span>Default</span>
+        <br />
+        <table class="table">
+            <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">First</th>
+                <th scope="col">Last</th>
+                <th scope="col">Handle</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <th scope="row">1</th>
+                <td>Mark</td>
+                <td>Otto</td>
+                <td>@mdo</td>
+            </tr>
+            <tr>
+                <th scope="row">2</th>
+                <td>Jacob</td>
+                <td>Thornton</td>
+                <td>@fat</td>
+            </tr>
+            <tr>
+                <th scope="row">3</th>
+                <td>Larry</td>
+                <td>the Bird</td>
+                <td>@twitter</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="row mt-5">
+        <span>Striped</span>
+        <br />
+        <table class="table table-striped">
+            <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">First</th>
+                <th scope="col">Last</th>
+                <th scope="col">Handle</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <th scope="row">1</th>
+                <td>Mark</td>
+                <td>Otto</td>
+                <td>@mdo</td>
+            </tr>
+            <tr>
+                <th scope="row">2</th>
+                <td>Jacob</td>
+                <td>Thornton</td>
+                <td>@fat</td>
+            </tr>
+            <tr>
+                <th scope="row">3</th>
+                <td>Larry</td>
+                <td>the Bird</td>
+                <td>@twitter</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+        <div class="mt-5" id="cards">
+    <h1>Cards</h1>
+    <div class="row bg-light p-md-5 p-sm-3 pt-5 pb-5">
+        <div class="col-md-6 col-sm-12 col-xs-12">
+            <div class="card mb-2">
+                <div class="card-body">
+                    <h4 class="card-title">Reproducible Builds</h4>
+                    <p class="card-text text-muted">Reproducible Builds are a set of software development practices that create an independently-verifiable path from source code to the binary code used by computers.</p>
+                    <a href="#" class="btn btn-primary" onclick="return false;">Visit website</a>
+                </div>
+            </div>
+            <div class="card mb-2">
+                <div class="card-body">
+                    <h4 class="card-title">Reproducible Builds</h4>
+                    <p class="card-text text-muted">Reproducible Builds are a set of software development practices that create an independently-verifiable path from source code to the binary code used by computers.</p>
+                    <a href="#" class="rb-link" onclick="return false;">Apply</a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="card-title">Reproducible Builds</h4>
+                    <p class="card-text text-muted">Reproducible Builds are a set of software development practices that create an independently-verifiable path from source code to the binary code used by computers.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 col-sm-12 col-xs-12">
+            <div class="card">
+                <img class="card-img-top"
+                     src="/reproducible-builds-styleguide/assets/images/placeholder.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <h4 class="card-title">A few things everyone can do now</h4>
+                    <p class="card-text text-muted">Numerous people contribute to the project to varying extents.</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Consider <a href="#" class="rb-link" onclick="return false;">
+                        <mark>contributing</mark>
+                    </a> to help the Reproducible Builds project grow.
+                    </li>
+                    <li class="list-group-item">Take a moment to
+                        <mark>donate</mark>
+                        to support further development.
+                    </li>
+                    <li class="list-group-item">Help
+                        <mark>translate</mark>
+                        the documentation into <a href="#" class="rb-link" onclick="return false;">other languages</a>.
+                    </li>
+                </ul>
+                <div class="card-body">
+                    <a href="#" class="rb-link" onclick="return false;">View All</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+        <h1 id="pagination"></h1>
+<div class="page-header mb-4 mt-5">
+    <h3>Pagination</h3>
+    <!--p class="text-muted">Some Description about pagination.</p-->
+</div>
+<div class="row bg-light p-5">
+    <nav aria-label="...">
+        <ul class="pagination m-0">
+            <li class="page-item disabled">
+                <span class="page-link">Previous</span>
+            </li>
+            <li class="page-item"><a class="page-link" href="#" onclick="return false;">1</a></li>
+            <li class="page-item">
+                <span class="page-link rb-paginate-active">
+	                2<span class="sr-only">(current)</span>
+                </span>
+            </li>
+            <li class="page-item"><a class="page-link" href="#" onclick="return false;">3</a></li>
+            <li class="page-item">
+                <a class="page-link" href="#" onclick="return false;">Next</a>
+            </li>
+        </ul>
+    </nav>
+</div>
+
+        <div class="page-header mb-4 mt-5">
+    <h3 id="alerts">Alerts</h3>
+    <p class="text-muted">Some Description about alerts.</p>
+</div>
+<div class="row p-5 bg-light">
+    <div class="col-12 alert alert-primary" role="alert">
+        This is a primary alert—check it out!
+    </div>
+    <div class="col-12 alert alert-success" role="alert">
+        This is a success alert—check it out!
+    </div>
+    <div class="col-12 alert alert-danger" role="alert">
+        This is a danger alert—check it out!
+    </div>
+    <div class="col-12 alert alert-warning" role="alert">
+        This is a warning alert—check it out!
+    </div>
+</div>
+
+    <h1 id="scrollspy"> </h1>
+<div class="page-header mb-4 mt-5 d-none d-sm-none">
+    <h3>Scrollspy</h3>
+    <!--p class="text-muted">Some Description about scrollspy.</p-->
+</div>
+<div class="row p-0 pt-5 bg-light d-none d-sm-none">
+    <div class="bd-example">
+        <div class="row">
+            <div class="col-4">
+                <div id="list-example" class="list-group">
+                    <a class="list-group-item list-group-item-action active" href="https://reproducible-builds.org/">Reproducible builds</a>
+                    <a class="list-group-item list-group-item-action" href="#list-item-2">Second Link</a>
+                    <a class="list-group-item list-group-item-action" href="#list-item-3">Third Link</a>
+                    <a class="list-group-item list-group-item-action" href="#list-item-4">Forth Link</a>
+                </div>
+            </div>
+            <div class="col-8">
+                <div data-spy="scroll" data-target="#list-example" data-offset="0" class="scrollspy-example">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad autem error eum inventore laboriosam necessitatibus nobis numquam praesentium quae tempore. Dignissimos minima rerum tenetur vel vero! Eius molestias natus nesciunt!
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="dropdown-divider mt-5 wi"></div>
+
+<div class="row">
+    <div class="col-12 p-0">
+        <p class="mt-5 mb-5">
+            <span class="text-muted small"> Styleguide code licensed under <a href="https://opensource.org/licenses/MIT" class="rb-link" title="MIT" target="_blank">MIT</a>, documents licensed under a <a href="https://creativecommons.org/licenses/by/3.0/us/" title="CC 3.0" target="_blank">Creative Commons Attribution 3.0 United States License</a>. Reproducible Builds are a set of software development practices that create an independently-verifiable path from source code to the binary code used by computers. <br>Templates and styles based on the <a href="https://styleguide.torproject.org/" target="_blank">Tor Styleguide</a>.</span>
+        </p>
+    </div>
+</div>
+
+    </div>
+</div>
+<script src="/reproducible-builds-styleguide/assets/javascript/modernizr.min.js"></script>
+<script src="/reproducible-builds-styleguide/assets/javascript/jquery-3.3.1.slim.min.js"></script>
+<script src="/reproducible-builds-styleguide/assets/javascript/popper.min.js"></script>
+<script src="/reproducible-builds-styleguide/assets/javascript/bootstrap.min.js"></script>
+<!-- <script src="/reproducible-builds-styleguide/assets/javascript/run_prettify.js"></script> /* -->
+<script type="text/javascript" src="/reproducible-builds-styleguide/assets/javascript/index.js"></script>
+
+</body>
+</html>

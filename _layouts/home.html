@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+{% include head.html %}
+
+<body>
+  {% include navbar.html %}
+  <div class="row" style="height: 100%">
+    <div class="col-md-2 col-sm-3 hidden-sm p-0">
+      {% include navbar_side.html sidebarClassName="rb-sidebar__1" %}
+    </div>
+    <div class="col-md-10 col-xs-12 col-sm-12 p-0">
+      <main role="main" class="content-scroll p-5" data-spy="scroll" data-target="#components-nav" data-offset="0">
+        <!--h1 class="mt-5">Tor Styleguide | The Tor Project</h1-->
+
+        <div class="row">
+          <div class="col-12 p-0">
+            <div class="page-header mb-4">
+              <h3>About</h3>
+              <p class="text-muted">Reproducible builds are a set of software development practices that create an independently-verifiable path from source code to the binary code used by computers.</p>
+            </div>
+            <p>This guide aims to provide standards, principles and components to design consistent views related to the Reproducible Builds project. These pages are a living document and we welcome contributions, feedback and suggestions.</p>
+            </p>
+            <br>
+            <h5>Contact</h5>
+            <div class="row mt-5">
+              <div class="col-md-6">
+                <div class="border p-5 mb-3">
+                  <h6>Reproducible Builds</h6>
+                  <a class="btn btn-lg btn-link p-0" title="Reproducible Builds Repo" href="https://lists.reproducible-builds.org/listinfo/rb-general" target="_blank">Mailing List</a></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 p-0">
+            <div class="page-header mb-4 mt-5">
+              <h5>Identihub</h5>
+              <p class="text-muted">The Reproducible Builds Project brand assets are included in this Identihub project page.</p>
+            </div>
+            <div class="row mt-5">
+              <div class="col-md-6">
+                <div class="border p-5 mb-3 text-left">
+                  <h6>Styleguide Mirror on Identihub</h6>
+                  <p class="m-0"></p>
+                  <a class="btn btn-lg btn-link p-0" href="https://demo.identihub.co/project/reproducible-builds" target="_blank">Project Page</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {% include scrollspy.html %}
+
+      </main>
+    </div>
+  </div>
+  {% include scripts.html %}
+
+</body>
+
+</html>
