@@ -7,14 +7,14 @@
 .sidebar-wrapper { background-color: #e9ecef; }
 
 .sidebar__link__darkGray { color: #343a40 !important; }
-.sidebar__link__darkGray:hover { color: #034482 !important; }
+.sidebar__link__darkGray:hover { color: #045fb4 !important; }
 
 .row { margin: auto !important; }
 
-.active { background-color: transparent !important; color: #C71438 !important; font-weight: bold; }
-.active * { color: #C71438 !important; }
+.active { background-color: transparent !important; color: #034482 !important; font-weight: bold; }
+.active * { color: #034482 !important; }
 
-.rp-navbar__top { background-color: #034482; }
+.rp-navbar__top { background-color: #045fb4; }
 
 .rb-sidebar__1 { background-color: #f1f3f5; }
 
@@ -37,14 +37,14 @@
 @media screen and (max-width: 991px) { .hidden-sm { display: none !important; } }
 .color { height: 100px; }
 
-.grid { height: 100px; background-color: #034482; border-radius: 7px; }
+.grid { height: 100px; background-color: #045fb4; border-radius: 7px; }
 .grid span { margin: 10px 10px 10px 10px; color: white; }
 
 .icon { font-size: 20px; background-color: #e9ecef; padding: 20px; }
 
-.background-primary { background-color: #034482; }
+.background-primary { background-color: #045fb4; }
 
-.background-secondary { background-color: #C71438; }
+.background-secondary { background-color: #034482; }
 
 .background-gray-0 { background-color: #f8f9fa; }
 
@@ -66,9 +66,9 @@
 
 .background-gray-9 { background-color: #212529; }
 
-.color-primary { color: #034482; }
+.color-primary { color: #045fb4; }
 
-.color-secondary { color: #C71438; }
+.color-secondary { color: #034482; }
 
 .color-gray-2 { color: #868e96; }
 
@@ -76,24 +76,36 @@
 
 .rb-isBold { font-weight: bold; }
 
-.btn-primary { background-color: #034482 !important; }
-.btn-primary:hover { background-color: #C71438 !important; }
+.btn-primary { background-color: #045fb4 !important; border-color: transparent !important; padding: 1rem 1.5rem !important; font-size: 1rem; }
+.btn-primary:hover { background-color: #034482 !important; border-color: transparent !important; }
 
-.btn-outline-primary { border-color: #034482 !important; color: #034482 !important; }
-.btn-outline-primary:hover { background-color: #034482 !important; color: white !important; }
+.btn-small { background-color: #045fb4 !important; border-color: transparent !important; padding: .08rem .4rem 0 !important; font-size: .8rem; color: #ffffff; }
+.btn-small:hover { background-color: #034482 !important; border-color: transparent !important; }
 
-.btn-link { color: #034482 !important; }
-.btn-link:hover { color: #C71438 !important; }
+.btn-medium { background-color: #045fb4 !important; border-color: transparent !important; padding: .5rem 1rem !important; font-size: 1rem !important; color: #ffffff; }
+.btn-medium:hover { background-color: #034482 !important; border-color: transparent !important; color: #ffffff; }
 
-.badge-primary { background-color: #034482 !important; }
+.btn-outline-medium { border-color: #045fb4 !important; color: #045fb4 !important; padding: .5rem 1rem !important; font-size: 1rem !important; }
+.btn-outline-medium:hover { color: white !important; background-color: #045fb4 !important; border-color: transparent !important; }
 
-.badge-secondary { background-color: #C71438 !important; }
+.btn-outline-small { border-color: #045fb4 !important; color: #045fb4 !important; padding: .08rem .4rem 0 !important; font-size: .8rem; }
+.btn-outline-small:hover { color: white !important; background-color: #045fb4 !important; border-color: transparent !important; }
 
-.rb-link { color: #034482 !important; }
-.rb-link:hover { color: #C71438 !important; }
+.btn-outline-primary { border-color: #045fb4 !important; color: #045fb4 !important; padding: 1rem 1.5rem !important; font-size: 1rem; }
+.btn-outline-primary:hover { color: white !important; background-color: #045fb4 !important; border-color: transparent !important; }
 
-.rb-paginate-active { background-color: #034482 !important; color: white !important; }
-.rb-paginate-active:hover { background-color: #C71438 !important; }
+.btn-link { color: #045fb4 !important; }
+.btn-link:hover { color: #034482 !important; }
+
+.badge-primary { background-color: #045fb4 !important; }
+
+.badge-secondary { background-color: #034482 !important; }
+
+.rb-link { color: #045fb4 !important; }
+.rb-link:hover { color: #034482 !important; }
+
+.rb-paginate-active { background-color: #045fb4 !important; color: white !important; }
+.rb-paginate-active:hover { background-color: #034482 !important; }
 
 .table-striped > tbody > tr:nth-child(2n+1) > td, .table-striped > tbody > tr:nth-child(2n+1) > th { background-color: #f1f3f5 !important; }
 

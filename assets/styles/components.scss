@@ -71,18 +71,76 @@
 
 .btn-primary {
   background-color: $primary !important;
+  border-color: transparent !important;
+  padding: 1rem 1.5rem !important;
+  font-size: 1rem;
   &:hover {
     background-color: $secondary !important;
+    border-color: transparent !important;
+  }
+}
+
+.btn-small {
+  background-color: $primary !important;
+  border-color: transparent !important;
+  padding: .08rem .4rem 0 !important;
+  font-size: .8rem;
+  color: $oc-white;
+  &:hover {
+    background-color: $secondary !important;
+    border-color: transparent !important;
+  }
+}
+
+.btn-medium {
+  background-color: $primary !important;
+  border-color: transparent !important;
+  padding: .5rem 1rem !important;
+  font-size: 1rem !important;
+  color: $oc-white;
+  &:hover {
+    background-color: $secondary !important;
+    border-color: transparent !important;
+    color: $oc-white;
+  }
+}
+
+.btn-outline-medium {
+  border-color: $primary !important;
+  color: $primary !important;
+  padding: .5rem 1rem !important;
+  font-size: 1rem !important;
+
+  &:hover {
+    color: white !important;
+    background-color: $primary !important;
+    border-color: transparent !important;
+  }
+}
+
+.btn-outline-small {
+  border-color: $primary !important;
+  color: $primary !important;
+  padding: .08rem .4rem 0 !important;
+  font-size: .8rem;
+
+  &:hover {
+    color: white !important;
+    background-color: $primary !important;
+    border-color: transparent !important;
   }
 }
 
 .btn-outline-primary {
   border-color: $primary !important;
   color: $primary !important;
+  padding: 1rem 1.5rem !important;
+  font-size: 1rem;
 
   &:hover {
-    background-color: $primary !important;
     color: white !important;
+    background-color: $primary !important;
+    border-color: transparent !important;
   }
 }
 
