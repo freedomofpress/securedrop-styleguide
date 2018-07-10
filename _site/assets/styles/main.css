@@ -86,10 +86,10 @@
 .btn-medium { background-color: #045fb4 !important; border-color: transparent !important; padding: .5rem 1rem !important; font-size: 1rem !important; color: #ffffff; }
 .btn-medium:hover { background-color: #034482 !important; border-color: transparent !important; color: #ffffff; }
 
-.btn-outline-medium { border-color: #045fb4 !important; color: #045fb4 !important; padding: .5rem 1rem !important; font-size: 1rem !important; }
+.btn-outline-medium { border-color: #045fb4 !important; color: #045fb4 !important; padding: .5rem 1rem !important; font-size: 1rem !important; background-color: transparent !important; }
 .btn-outline-medium:hover { color: white !important; background-color: #045fb4 !important; border-color: transparent !important; }
 
-.btn-outline-small { border-color: #045fb4 !important; color: #045fb4 !important; padding: .08rem .4rem 0 !important; font-size: .8rem; }
+.btn-outline-small { border-color: #045fb4 !important; color: #045fb4 !important; padding: .08rem .4rem 0 !important; font-size: .8rem; background-color: transparent !important; }
 .btn-outline-small:hover { color: white !important; background-color: #045fb4 !important; border-color: transparent !important; }
 
 .btn-outline-primary { border-color: #045fb4 !important; color: #045fb4 !important; padding: 1rem 1.5rem !important; font-size: 1rem; }

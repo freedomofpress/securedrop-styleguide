@@ -110,6 +110,7 @@
   color: $primary !important;
   padding: .5rem 1rem !important;
   font-size: 1rem !important;
+  background-color: transparent !important;
 
   &:hover {
     color: white !important;
@@ -123,6 +124,7 @@
   color: $primary !important;
   padding: .08rem .4rem 0 !important;
   font-size: .8rem;
+  background-color: transparent !important;
 
   &:hover {
     color: white !important;
