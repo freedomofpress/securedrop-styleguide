@@ -3,6 +3,7 @@
 .sidebar { min-height: 100vh; height: 100%; width: 100%; }
 .sidebar .list-group { position: fixed; }
 .sidebar .list-group-item { background-color: transparent; border: 0; border-radius: 0 !important; }
+.sidebar .list-group-item.active { background-color: #dee2e6 !important; border-left: 5px solid #045fb4; border-radius: 0 !important; font-weight: normal !important; }
 
 .sidebar-wrapper { background-color: #e9ecef; }
 
