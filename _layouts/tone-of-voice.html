@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+{% include head.html %}
+<body>
+{% include navbar.html %}
+<div class="row" style="height: 100%">
+    <div class="col-md-2 hidden-sm p-0">
+        {% include navbar_side.html sidebarClassName="rb-sidebar__1" %}
+    </div>
+    <div class="col-md-10 col-xs-12 col-sm-12 p-0">
+        <main role="main" class="content-scroll p-5" data-spy="scroll"
+              data-target="#components-nav" data-offset="0">
+            <div class="row">
+                <div class="col-12 p-0">
+                    <div class="page-header mb-4">
+                        <h3>Getting started</h3>
+                        <p class="text-muted">We are making SecureDrop usable for everyone.</p>
+                    </div>
+                    <p>The SecureDrop styleguide is based on <a href="https://getbootstrap.com/">Bootstrap</a>, an open-source
+                        toolkit for developing with HTML, CSS, and JS. We are currently on
+                        <a href="https://getbootstrap.com/docs/4.1/getting-started/introduction/">v4.1.0</a>.
+                    </p>
+                    <p>
+                        To use the SecureDrop styleguide, you can download our scss style (components.scss) and
+                        import it in your project with bootstrap included. <a href="http://sass-lang.com/">SASS</a> is a CSS extension language.
+                    </p>
+                    <p class="purple">
+                        If you want to use SASS you can download the complete archive for the styleguide. The scss folder under
+                        assets contains all the sass files. Since we use bootstrap, we only add a few styles without
+                        modifying bootstrap core or defining new elements whenever possible.
+                    </p>
+                    <p>Bootstrap contains a few JavaScript libraries for extra interaction with the DOM. We use these
+                        libraries but do not add extra JavaScript, so that only few elements are affected if you disable JavaScript.
+                    </p>
+                    <p>This styleguide has been built using <a href="https://jekyllrb.com/">Jekyll</a>.
+                        Jekyll is a simple, blog-aware, static site generator. You can build this yourself by
+                        <a href="https://jekyllrb.com/docs/continuous-integration/buddyworks/#1-getting-started">
+                            installing Jekyll</a>.</p>
+                        <div class="border p-5 mb-3">
+                            <h6>Use the SecureDrop Styleguide</h6>
+                            <p class="m-0">This package includes .scss files</p>
+                            <a class="btn btn-lg btn-link p-0" title="SecureDrop Repo"
+                               href="https://github.com/uracreative/securedrop-styleguide/tree/master/assets/styles" target="_blank">Visit Repo</a></div>
+                        <div>
+                    </div>
+
+                    {% include scrollspy.html %}
+                </div>
+            </div>
+        </main>
+    </div>
+</div>
+{% include scripts.html %}
+</body>
+</html>
