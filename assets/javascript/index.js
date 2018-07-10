@@ -37,7 +37,7 @@ $(document).ready(function () {
 	// });
 // })
 
-$('.rb-sidebar').on('click', 'a',function() {
-    $('.rb-sidebar a.active').removeClass('active');
+$('.rb-sidebar').on('click',function() {
+    $('.rb-sidebar.active').removeClass('active');
     $(this).addClass('active');
 });

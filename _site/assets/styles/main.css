@@ -36,6 +36,8 @@
 .hidden-sm { display: block; }
 
 @media screen and (max-width: 991px) { .hidden-sm { display: none !important; } }
+.sidebar-fill { width: 12.45%; }
+
 .color { height: 100px; }
 
 .grid { height: 100px; background-color: #045fb4; border-radius: 7px; }
