@@ -29,6 +29,7 @@
     border-left: 5px solid $primary;
     border-radius: 0 !important;
     font-weight: normal !important;
+    padding-left: 0.95rem !important;
     // border-color: $oc-gray-4;
   }
 }
@@ -113,4 +114,8 @@
 
 .sidebar-fill {
   width: 12.45%;
+}
+
+.list-group-item:focus, .list-group-item:hover {
+  background-color: $oc-gray-2 !important;
 }

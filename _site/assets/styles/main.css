@@ -3,7 +3,7 @@
 .sidebar { min-height: 100vh; height: 100%; width: 100%; }
 .sidebar .list-group { position: fixed; }
 .sidebar .list-group-item { background-color: transparent; border: 0; border-radius: 0 !important; }
-.sidebar .list-group-item.active { background-color: #dee2e6 !important; border-left: 5px solid #045fb4; border-radius: 0 !important; font-weight: normal !important; }
+.sidebar .list-group-item.active { background-color: #dee2e6 !important; border-left: 5px solid #045fb4; border-radius: 0 !important; font-weight: normal !important; padding-left: 0.95rem !important; }
 
 .sidebar-wrapper { background-color: #e9ecef; }
 
@@ -37,6 +37,8 @@
 
 @media screen and (max-width: 991px) { .hidden-sm { display: none !important; } }
 .sidebar-fill { width: 12.45%; }
+
+.list-group-item:focus, .list-group-item:hover { background-color: #e9ecef !important; }
 
 .color { height: 100px; }
 
