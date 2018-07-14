@@ -23,6 +23,12 @@ $(document).ready(function () {
       if(aElement.href == document.URL.split('#')[0]) {
           $(litem).addClass('active');
       }
+	$("#sidebar-left li").click(function() {
+  // Reset them
+  $("#sidebar-left li").removeClass("active");
+  // Add to the clicked one only
+  $(this).addClass("active");
+});
   });
 });
 
