@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+{% include head.html %}
+<body>
+{% include navbar.html %}
+<div class="row">
+    <div class="col-md-3 col-sm-4 col-xs-4 p-0">
+        <div class="row" style="height: 100%">
+            <div class="col-md-6 col-sm-6 col-xs-6 p-0 display-md">
+                {% include navbar_side.html sidebarClassName="rb-sidebar__1" %}
+            </div>
+            <div class="col-md-6 col-sm-12 col-xs-2 p-0">
+                {% include sidebar.html sidebarClassName="rb-sidebar__2" %}
+            </div>
+        </div>
+    </div>
+    <div class="col-md-9 col-sm-8 col-xs-8 container-wrapper">
+        <!--{{ content }}-->
+        {% include copywriting/goals.html %}
+        {% include copywriting/voice.html %}
+        {% include copywriting/grammar.html %}
+        {% include copywriting/mechanics.html %}
+        {% include copywriting/people.html %}
+        {% include copywriting/blog-posts.html %}
+        {% include copywriting/newsletter.html %}
+        {% include copywriting/social-media.html %}
+        {% include copywriting/copyright.html %}
+        {% include copywriting/word-list.html %}
+    {% include scrollspy.html %}
+    </div>
+</div>
+{% include scripts.html %}
+</body>
+</html>
