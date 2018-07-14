@@ -2,7 +2,7 @@
 
 .sidebar { min-height: 100vh; height: 100%; width: 100%; }
 .sidebar .list-group { position: fixed; }
-.sidebar .list-group-item { background-color: transparent; border: 0; border-radius: 0 !important; }
+.sidebar .list-group-item { background-color: transparent; border: 0; border-radius: 0 !important; font-size: 0.95rem; }
 .sidebar .list-group-item.active { background-color: #dee2e6 !important; border-left: 5px solid #045fb4; border-radius: 0 !important; font-weight: normal !important; padding-left: 0.95rem !important; }
 
 .sidebar-wrapper { background-color: #e9ecef; }
@@ -39,6 +39,10 @@
 .sidebar-fill { width: 12.45%; }
 
 .list-group-item:focus, .list-group-item:hover { background-color: #e9ecef !important; }
+
+.sidebar .list-group-item { width: 74.6%; }
+
+.rb-sidebar__2 .list-group-item { width: 100%; }
 
 .color { height: 100px; }
 

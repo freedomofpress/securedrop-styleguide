@@ -4,10 +4,14 @@
 <body>
 {% include navbar.html %}
 <div class="row" style="height: 100%">
-    <div class="col-md-2 hidden-sm p-0">
-        {% include navbar_side.html sidebarClassName="rb-sidebar__1" %}
-    </div>
-    <div class="col-md-10 col-xs-12 col-sm-12 p-0">
+      <div class="col-md-3 col-sm-4 col-xs-4 p-0">
+          <div class="row" style="height: 100%">
+              <div class="col-md-6 col-sm-6 col-xs-6 p-0 display-md">
+                  {% include navbar_side.html sidebarClassName="rb-sidebar__1" %}
+              </div>
+            </div>
+          </div>
+    <div class="col-md-7 col-xs-12 col-sm-12 p-0">
         <main role="main" class="content-scroll p-5" data-spy="scroll"
               data-target="#components-nav" data-offset="0">
             <div class="row">

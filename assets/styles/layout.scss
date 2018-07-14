@@ -21,6 +21,7 @@
     background-color: transparent;
     border: 0;
     border-radius: 0 !important;
+    font-size: 0.95rem;
     // border-color: $oc-gray-4;
   }
 
@@ -118,4 +119,12 @@
 
 .list-group-item:focus, .list-group-item:hover {
   background-color: $oc-gray-2 !important;
+}
+
+.sidebar .list-group-item {
+  width: 74.6%;
+}
+
+.rb-sidebar__2 .list-group-item {
+  width: 100%;
 }
