@@ -24,5 +24,3 @@
     - circler: oi oi-arrow-circle-right
     - circlet: oi oi-arrow-circle-top
 ---
-
-In the following you can find various visual elements required for the Reproducible Builds visual identity.

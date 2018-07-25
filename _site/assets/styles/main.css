@@ -46,6 +46,10 @@
 
 .rb-sidebar__2 .list-group-item { width: 100%; }
 
+.bg-box { background-color: #f1f3f5 !important; }
+
+.b-border { border-bottom: 2px solid lightgrey !important; }
+
 .color { height: 100px; }
 
 .grid { height: 100px; background-color: #045fb4; border-radius: 7px; }
@@ -56,6 +60,10 @@
 .background-primary { background-color: #045fb4; }
 
 .background-secondary { background-color: #034482; }
+
+.background-warning { background-color: #e72385; }
+
+.background-danger { background-color: #c71438; }
 
 .background-gray-0 { background-color: #f8f9fa; }
 
