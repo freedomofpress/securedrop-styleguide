@@ -57,13 +57,28 @@
 
 .icon { font-size: 20px; background-color: #e9ecef; padding: 20px; }
 
+.alert { border-radius: 10px !important; }
+.alert-primary { color: #ffffff !important; background-color: #045fb4 !important; border-color: #034482 !important; }
+.alert-secondary { color: #ffffff !important; background-color: #7985aa !important; border-color: #56679b !important; }
+.alert-success { color: #105c10 !important; background-color: #e1f2e1 !important; border-color: #60ab60 !important; }
+.alert-success hr { border-top-color: #1d731d; }
+.alert-success .alert-link { color: #003b00; }
+.alert-warning { color: #000000 !important; background-color: #FCE3E3 !important; border-color: #F68E8E !important; }
+.alert-danger { color: #F00 !important; background-color: #FDFAFD !important; border-color: #EBDCEB !important; }
+.alert-danger hr { border-top-color: #e15647; }
+.alert-danger .alert-link { color: #880000; }
+
 .background-primary { background-color: #045fb4; }
 
 .background-secondary { background-color: #034482; }
 
-.background-warning { background-color: #e72385; }
+.background-warning { background-color: #F00; }
 
-.background-danger { background-color: #c71438; }
+.background-danger { background-color: #d55c5c; }
+
+.background-button { background-color: #7985aa; }
+
+.background-star { background-color: #ffa500; }
 
 .background-gray-0 { background-color: #f8f9fa; }
 
@@ -119,6 +134,10 @@
 .btn-scroller { border-radius: .25rem; text-align: center; display: inline-block; -webkit-transition-duration: .1s; -o-transition-duration: .1s; -webkit-transition-timing-function: linear; -o-transition-timing-function: linear; -webkit-transition-property: background-color,color,border-color; -o-transition-property: background-color,color,border-color; padding: .5rem 1rem; transition-duration: .1s; transition-timing-function: linear; transition-property: background-color,color,border-color; color: #00000b; background-color: #dddde0; border: 0; }
 
 .btn-scroller:active, .btn-scroller:focus, .btn-scroller:hover { color: #00000b; background-color: #aaaab0; }
+
+.btn-default { background: #7985aa; box-sizing: border-box; -moz-box-sizing: border-box; padding: 10px 15px; margin: 2px auto; border: 1px solid transparent; color: #fff; font-size: medium; cursor: pointer; text-align: center; text-decoration: none; }
+
+.btn-default:active, .btn-default:focus, .btn-default:hover { background: #fff; color: #7985aa; border: 1px solid #7985aa; }
 
 .faq__chevron-up { height: .8em; vertical-align: -.06em; fill: currentColor; margin-left: .5em; -webkit-transform: rotate(270deg); -ms-transform: rotate(270deg); -o-transform: rotate(270deg); transform: rotate(270deg); }
 

@@ -1,3 +1,48 @@
+.alert {
+  border-radius: 10px !important;
+	&-primary {
+		color: $oc-white !important;
+		background-color: $primary !important;
+		border-color: $secondary !important;
+	}
+	&-secondary {
+		color: $oc-white !important;
+    background-color: $button !important;
+		border-color: #56679b !important;
+	}
+	&-success {
+		color: #105c10 !important;
+		background-color: #e1f2e1 !important;
+		border-color: #60ab60 !important;
+
+		& hr {
+			border-top-color: #1d731d;
+		}
+
+		& .alert-link {
+		color: #003b00;
+		}
+	}
+	&-warning {
+    color: $oc-black !important;
+		background-color: #FCE3E3 !important;
+		border-color: #F68E8E !important;
+	}
+	&-danger {
+		color: $warning !important;
+		background-color: #FDFAFD !important;
+		border-color: #EBDCEB !important;
+
+		& hr {
+			border-top-color: #e15647;
+		}
+
+		& .alert-link {
+		color: #880000;
+		}
+	}
+}
+
 .navbar {
   // background-color: $primary !important;
 }
@@ -16,6 +61,14 @@
 
 .background-danger {
   background-color: $danger;
+}
+
+.background-button {
+  background-color: $button;
+}
+
+.background-star {
+  background-color: $star;
 }
 
 .background-gray-0 {
@@ -185,6 +238,27 @@
   color: #00000b;
   background-color: #aaaab0;
 }
+
+.btn-default {
+  background: #7985aa;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  padding: 10px 15px;
+  margin: 2px auto;
+  border: 1px solid transparent;
+  color: #fff;
+  font-size: medium;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+}
+
+.btn-default:active, .btn-default:focus, .btn-default:hover {
+  background: #fff;
+  color: #7985aa;
+  border: 1px solid #7985aa;
+}
+
 
 .faq__chevron-up {
   height: .8em;
