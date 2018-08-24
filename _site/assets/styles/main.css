@@ -141,6 +141,21 @@
 
 .faq__chevron-up { height: .8em; vertical-align: -.06em; fill: currentColor; margin-left: .5em; -webkit-transform: rotate(270deg); -ms-transform: rotate(270deg); -o-transform: rotate(270deg); transform: rotate(270deg); }
 
+.footer ul { list-style: none; font-weight: 600; text-transform: capitalize; }
+.footer ul span { display: block; margin-bottom: 0.5em; }
+.footer ul a { color: rgba(255, 255, 255, 0.5); font-weight: 400; }
+.footer ul a:hover { color: #ffffff; }
+.footer__social-media { display: flex; }
+.footer__social-media-icon { content: " "; width: 75px; height: 75px; margin-right: 1rem; background-color: rgba(255, 255, 255, 0.5); border-radius: 75px !important; }
+.footer-extras ul li { margin: 0 0.5rem; }
+.footer .spacer { content: " "; height: 2rem; }
+
+#styleguide-nav { background-color: #f8f9fa !important; }
+#styleguide-nav .nav-item:hover { box-shadow: inset 0 -5px #045fb4; }
+#styleguide-nav .nav-item:hover .nav-link { color: #045fb4; }
+#styleguide-nav .nav-link { color: #212529; }
+#styleguide-nav .show .nav-item:hover { box-shadow: 0 0; }
+
 .badge-primary { background-color: #045fb4 !important; }
 
 .badge-secondary { background-color: #034482 !important; }
