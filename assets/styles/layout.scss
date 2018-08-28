@@ -5,7 +5,7 @@
 .border-left-right {
     // z-index: 99;
     border-left: 1px solid $oc-gray-3 !important;
-    border-right: 1px solid $oc-gray-3 !important;
+    border-right: none;
 }
 
 .sidebar {
@@ -51,15 +51,23 @@
   }
 }
 
+#sidebar-left {
+  .sidebar__link__darkGray.active {
+    .list-group-item {
+      padding-left: 0.95rem;
+    }
+  }
+}
 
 .row {
   margin: auto !important;
 }
 
-.active {
-  background-color: transparent !important;
+.active, .active:hover {
+  background-color: $oc-gray-3 !important;
+  border-left: 5px solid $secondary !important;
   color: $secondary !important;
-  font-weight: bold;
+  width: 74.6%;
 
   & * {
     color: $secondary !important;
@@ -117,7 +125,7 @@
 }
 
 .sidebar-fill {
-  width: 12.45%;
+  width: 12.45%; 
 }
 
 .list-group-item:focus, .list-group-item:hover {

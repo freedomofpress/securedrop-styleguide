@@ -16,16 +16,16 @@
 // });
 
 $(document).ready(function () {
-  var listItems = $('.rb-main-sidebar');
+  var listItems = $('.sidebar__link__darkGray');
   $.each(listItems, function (key, litem) {
-      var aElement = $(this).children(litem)[0];
+      var aElement = $(litem)[0];
 
       if(aElement.href == document.URL.split('#')[0]) {
           $(litem).addClass('active');
       }
-	$("#sidebar-left li").click(function() {
+	$("#sidebar-left a li").click(function() {
   // Reset them
-  $("#sidebar-left li").removeClass("active");
+  $("#sidebar-left a li").removeClass("active");
   // Add to the clicked one only
   $(this).addClass("active");
 });
