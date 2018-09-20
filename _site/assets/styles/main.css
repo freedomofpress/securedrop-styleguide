@@ -60,7 +60,7 @@
 .alert { border-radius: 10px !important; padding: 10px !important; }
 .alert-primary { color: #ffffff !important; background-color: #045fb4 !important; border-color: #034482 !important; }
 .alert-secondary { color: #ffffff !important; background-color: #7985aa !important; border-color: #56679b !important; }
-.alert-success { color: #105c10 !important; background-color: #e1f2e1 !important; border-color: #60ab60 !important; }
+.alert-success { color: #000000 !important; background-color: #e3f7fc !important; border-color: 1px solid #8ed9f6 !important; }
 .alert-success hr { border-top-color: #1d731d; }
 .alert-success .alert-link { color: #003b00; }
 .alert-warning { color: #000000 !important; background-color: #ffc107 !important; border-color: #e4ab00 !important; }
