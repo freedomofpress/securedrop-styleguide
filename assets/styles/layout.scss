@@ -4,14 +4,14 @@
 
 .border-left-right {
     // z-index: 99;
-    border-left: 1px solid $oc-gray-3 !important;
-    border-right: none;
+    border-right: 1px solid $oc-gray-3 !important;
 }
 
 .sidebar {
   min-height: 100vh;
   height: 100%;
   width: 100%;
+  border-right: 1px solid $oc-gray-3 !important;
 
   // position: fixed;
 
@@ -21,69 +21,55 @@
   }
 
   & .list-group-item {
-    background-color: transparent;
+    background-color: transparent !important;
     border: 0;
     border-radius: 0 !important;
-    font-size: 0.95rem;
-    // border-color: $oc-gray-4;
-  }
-
-  & .list-group-item.active {
-    background-color: $oc-gray-3 !important;
-    border-left: 5px solid $primary;
-    border-radius: 0 !important;
-    font-weight: normal !important;
-    padding-left: 0.95rem !important;
-    // border-color: $oc-gray-4;
+    font-size: 1rem;
+    font-weight: 400 !important;
+    padding-left: 1.1rem !important;
   }
 }
 
 .sidebar-wrapper {
-  background-color: $oc-gray-2;
+  background-color: $oc-gray-3;
 }
 
 .sidebar__link__darkGray {
-  color: $oc-gray-8 !important;
+  color: $oc-gray-6 !important;
 
   &:hover {
-    color: $primary !important
-    // color: $oc-gray-8 !important;
+    color: $oc-black !important;
+    transition-timing-function: linear;
+    -webkit-transition-timing-function: linear;
+    -webkit-transition-duration: .3s;
+    transition-duration: .3s;
+  }
+
+  &:active {
+    color: $primary !important;
   }
 }
 
-#sidebar-left {
-  .sidebar__link__darkGray.active {
-    .list-group-item {
-      padding-left: 0.95rem;
-    }
-  }
+.rb-sidebar__2 {
+  background-color: #F8F9FA !important;
 }
 
 .row {
   margin: auto !important;
 }
 
-.active, .active:hover {
-  background-color: $oc-gray-3 !important;
-  border-left: 5px solid $secondary !important;
-  color: $secondary !important;
-  width: 74.6%;
+.active,
+.active:hover {
+ // background-color: $oc-gray-3 !important;
+//	box-shadow: inset 5px 0 $primary;
 
   & * {
-    color: $secondary !important;
+    color: $primary !important;
   }
 }
 
 .rp-navbar__top {
   background-color: $primary;
-}
-
-.rb-sidebar__1 {
-  background-color: $oc-gray-1;
-}
-
-.rb-sidebar__2 {
-  background-color: $oc-gray-0;
 }
 
 .rb-contain {
@@ -113,7 +99,6 @@
   justify-content: space-between;
 }
 
-
 .hidden-sm {
   display: block;
 }
@@ -125,19 +110,32 @@
 }
 
 .sidebar-fill {
-  width: 12.45%; 
+  width: 12.45%;
 }
 
-.list-group-item:focus, .list-group-item:hover {
-  background-color: $oc-gray-2 !important;
-}
+.list-group-item:focus,
+.list-group-item:hover {
+  //  background-color: $oc-gray-2 !important;
 
-.sidebar .list-group-item {
-  width: 74.6%;
+	 & * {
+		 color: $primary;
+	 }
+}
+.list-group-item.active {
+	color: $primary !important;
 }
 
 .rb-sidebar__2 .list-group-item {
   width: 100%;
+}
+
+.bg {
+	&-primary {
+		background-color: $primary !important;
+	}
+	&-secondary {
+		background-color: $secondary !important;
+	}
 }
 
 .bg-box {

@@ -1,5 +1,6 @@
 .alert {
   border-radius: 10px !important;
+  padding: 10px !important;
 	&-primary {
 		color: $oc-white !important;
 		background-color: $primary !important;
@@ -29,9 +30,9 @@
 		border-color: #e4ab00 !important;
 	}
 	&-danger {
-		color: $oc-white !important;
-		background-color: #dc3545 !important;
-		border-color: #c92d3c !important;
+		color: $oc-black !important;
+		background-color: #FCE3E3 !important;
+		border-color: 1px solid #F68E8E !important;
 
 		& hr {
 			border-top-color: #e15647;
@@ -243,10 +244,10 @@
   background: #7985aa;
   box-sizing: border-box;
   -moz-box-sizing: border-box;
-  padding: 10px 15px;
+  padding: 3px 10px !important;
   margin: 2px auto;
   border: 1px solid transparent;
-  color: #fff;
+  color: #fff !important;
   font-size: medium;
   cursor: pointer;
   text-align: center;
@@ -254,9 +255,17 @@
 }
 
 .btn-default:active, .btn-default:focus, .btn-default:hover {
-  background: #fff;
-  color: #7985aa;
-  border: 1px solid #7985aa;
+  background: #fff !important;
+  color: #7985aa !important;
+  border: 1px solid #7985aa !important;
+}
+
+.btn-time {
+  background-color: #9e9e9e;
+  color: #fff;
+  font-size: small;
+  padding: 3px 10px !important;
+  border: none !important;
 }
 
 .faq__chevron-up {
@@ -295,10 +304,21 @@
 }
 
 .table-striped > tbody > tr:nth-child(2n+1) > td, .table-striped > tbody > tr:nth-child(2n+1) > th {
-  background-color: $oc-gray-1 !important;
+  background-color: #f3f3f3 !important;
 }
 
 .mark, mark {
   background-color: $oc-gray-2 !important;
   padding: .2em !important;
+}
+
+.button-star {
+  color: #d3d3d3 !important;
+  background-color: transparent !important;
+  padding: 0 !important;
+  border: none !important;
+
+  &:hover {
+    color: orange !important;
+  }
 }

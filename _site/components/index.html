@@ -9,11 +9,12 @@
   <link href="/securedrop-styleguide/assets/fonts/firamono.css" rel="stylesheet">
   <link rel="stylesheet" href="/securedrop-styleguide/assets/static/open-iconic-bootstrap.css" />
   <link rel="stylesheet" href="/securedrop-styleguide/assets/static/bootstrap.min.css">
+  <link rel="stylesheet" href="/securedrop-styleguide/assets/static/all.min.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
-<nav class="navbar navbar-expand-lg navbar-light sticky-top rp-navbar__top">
+<nav class="navbar navbar-expand-lg navbar-light border-bottom border-black sticky-top rp-navbar__top">
   <a class="navbar-brand" href="https://securedrop.org/">
     <img src="/securedrop-styleguide/assets/images/logo-text-white.png"  height="40" width="auto" alt=""></img>
   </a>
@@ -143,7 +144,7 @@
             <p class="mb-0">This is a warning alert — check it out!</p>
         </div>
         <div class="col-12 alert alert-danger" role="alert">
-            <p class="mb-0">This is a danger alert — check it out!</p>
+            <p class="mb-0"><img src="../assets/images/exclamation-triangle-black.png" width="20" height="17"> This is a danger alert — check it out!</p>
         </div>
         <div class="col-12 alert alert-success" role="alert">
                     <h4 class="alert-header">Well done!</h4>
@@ -151,7 +152,8 @@
                     <hr>
                     <p class="mb-0">Also some extra text and a <a href="#alerts" class="alert-link">link</a>.</p>
         </div>
-    </div>    
+    </div>
+
         <div id="buttons" class="mb-4 pt-5">
     <h2 class="b-border">Buttons</h2>
     <!--p class="text-muted">Some Description about buttons.</p-->
@@ -164,8 +166,6 @@
         <button type="button" class="btn btn-lg btn-outline-primary mr-2">How to Contribute</button>
         <p class="text-black small text-muted m-0 pt-2">Link</p>
         <button type="button" class="btn btn-lg btn-link mr-2">Learn more</button>
-        <p class="text-black small text-muted m-0 pt-2">Download</p>
-        <button type="button" class="btn btn-default mr-2 mt-2">Download</button>
     </div>
     <div class="col-xs-12 col-sm-6 col-md-6 p-1">
         <p class="text-black small text-muted m-0 pt-2 pb-2">Medium</p>
@@ -176,8 +176,6 @@
         <button type="button" class="btn btn-sm btn-small mr-2">Small</button>
         <button type="button" class="btn btn-sm btn-outline-small mr-2">Ghost</button>
         <button type="button" class="btn btn-sm btn-link mr-2">Link</button>
-        <p class="text-black small text-muted m-0 pt-5">Scroller</p>
-        <button type="button" class="btn btn-scroller mr-2 mt-2">Back to Top <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 149 256.1" class="faq__chevron-up"><path d="M145.4,136.5l-117.8,116c-4.7,4.7-12.3,4.7-17,0l-7.1-7.1c-4.7-4.7-4.7-12.3,0-17L105.8,128L3.6,27.6c-4.7-4.7-4.7-12.3,0-17l7.1-7.1c4.7-4.7,12.3-4.7,17,0l117.8,116C150.1,124.2,150.1,131.8,145.4,136.5L145.4,136.5z"></path></svg></button>
     </div>
 </div>
 
@@ -226,69 +224,29 @@
         <div class="mt-5" id="tables">
     <h2 class="b-border">Tables</h2>
     <div class="row mt-5">
-        <span>Default</span>
-        <br />
-        <table class="table">
-            <thead>
-            <tr>
-                <th scope="col">#</th>
-                <th scope="col">First</th>
-                <th scope="col">Last</th>
-                <th scope="col">Handle</th>
-            </tr>
-            </thead>
-            <tbody>
-            <tr>
-                <th scope="row">1</th>
-                <td>Mark</td>
-                <td>Otto</td>
-                <td>@mdo</td>
-            </tr>
-            <tr>
-                <th scope="row">2</th>
-                <td>Jacob</td>
-                <td>Thornton</td>
-                <td>@fat</td>
-            </tr>
-            <tr>
-                <th scope="row">3</th>
-                <td>Larry</td>
-                <td>the Bird</td>
-                <td>@twitter</td>
-            </tr>
-            </tbody>
-        </table>
-    </div>
-    <div class="row mt-5">
-        <span>Striped</span>
-        <br />
         <table class="table table-striped">
             <thead>
             <tr>
-                <th scope="col">#</th>
-                <th scope="col">First</th>
-                <th scope="col">Last</th>
-                <th scope="col">Handle</th>
+                <th scope="col">Star</th>
+                <th scope="col">Details</th>
+                <th scope="col">Time</th>
             </tr>
             </thead>
             <tbody>
             <tr>
-                <th scope="row">1</th>
-                <td>Mark</td>
-                <td>Otto</td>
-                <td>@mdo</td>
+                <td scope="row"><button class="button-star" type="submit"><i class="fas fa-star"></i></button> <input id="checkbox" type="checkbox">  twenty-seventh motif</td>
+                <td scope="row"><i class="far fa-file-archive"></i> 0 docs <i class="far fa-file-alt"></i> 2 messages <a class="btn-default" ><i class="fas fa-download"></i> 2 unread</a></td>
+                <td scope="row"><button class="btn-time">8 hours ago</button></td>
             </tr>
             <tr>
-                <th scope="row">2</th>
-                <td>Jacob</td>
-                <td>Thornton</td>
-                <td>@fat</td>
+                <td scope="row"><button class="button-star" type="submit"><i class="fas fa-star"></i></button> <input id="checkbox" type="checkbox">  crushing charge</td>
+                <td scope="row"><i class="far fa-file-archive"></i> 1 doc <i class="far fa-file-alt"></i> 0 messages <a class="btn-default" ><i class="fas fa-download"></i> 1 unread</a></td>
+                <td scope="row"><button class="btn-time">12 hours ago</button></td>
             </tr>
             <tr>
-                <th scope="row">3</th>
-                <td>Larry</td>
-                <td>the Bird</td>
-                <td>@twitter</td>
+                <td scope="row"><button class="button-star" type="submit"><i class="fas fa-star"></i></button> <input id="checkbox" type="checkbox">  open-ended boilerplate</td>
+                <td scope="row"><i class="far fa-file-archive"></i> 1 doc <i class="far fa-file-alt"></i> 1 message <a class="btn-default" ><i class="fas fa-download"></i> 7 unread</a></td>
+                <td scope="row"><button class="btn-time">9 hours ago</button></td>
             </tr>
             </tbody>
         </table>
