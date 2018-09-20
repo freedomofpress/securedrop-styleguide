@@ -254,6 +254,24 @@
   text-decoration: none;
 }
 
+.btn-delete {
+  background-color: #d55c5c;
+  color: #fff;
+  font-size: small;
+  padding: 3px 10px;
+  -moz-box-sizing: border-box;
+  margin: 2px auto;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+
+  &:hover {
+    background: #fff;
+    border-color: #d55c5c;
+    color: #d55c5c;
+  }
+}
+
 .btn-default:active, .btn-default:focus, .btn-default:hover {
   background: #fff !important;
   color: #7985aa !important;
