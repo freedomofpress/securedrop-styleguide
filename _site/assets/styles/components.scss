@@ -4,17 +4,17 @@
 	&-primary {
 		color: $oc-white !important;
 		background-color: $primary !important;
-		border-color: $secondary !important;
+		border-color: $primary !important;
 	}
 	&-secondary {
-		color: $oc-white !important;
-    background-color: $button !important;
-		border-color: #56679b !important;
+		color: $oc-black !important;
+    background-color: #f0f0f0 !important;
+		border-color: 1px solid #f0f0f0 !important;
 	}
 	&-success {
-		color: $oc-black !important;
-		background-color: #e3f7fc !important;
-		border-color: 1px solid #8ed9f6 !important;
+		color: #3f6910 !important;
+		background-color: #e5f8d1 !important;
+		border-color: 1px solid #e5f8d1 !important;
 
 		& hr {
 			border-top-color: #1d731d;
@@ -25,14 +25,14 @@
 		}
 	}
 	&-warning {
-    color: $oc-black !important;
-		background-color: #ffc107 !important;
-		border-color: #e4ab00 !important;
+    color: #786600 !important;
+		background-color: #fff7c9 !important;
+		border-color: 1px solid #fff7c9 !important;
 	}
 	&-danger {
-		color: $oc-black !important;
-		background-color: #FCE3E3 !important;
-		border-color: 1px solid #F68E8E !important;
+		color: #801f00 !important;
+		background-color: #ffd8cc !important;
+		border-color: 1px solid #ffd8cc !important;
 
 		& hr {
 			border-top-color: #e15647;
@@ -273,6 +273,20 @@
   }
 }
 
+.btn-close {
+  float: right;
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 1;
+  opacity: .2;
+  padding: 0;
+  cursor: pointer;
+  background: transparent;
+  border: 0;
+  color: currentColor;
+  outline: none;
+}
+
 .btn-default:active, .btn-default:focus, .btn-default:hover {
   background: #fff !important;
   color: #7985aa !important;
@@ -286,17 +300,6 @@
   padding: 3px 10px !important;
   border-radius: .25rem;
   border: none !important;
-}
-
-.faq__chevron-up {
-  height: .8em;
-  vertical-align: -.06em;
-  fill: currentColor;
-  margin-left: .5em;
-  -webkit-transform: rotate(270deg);
-  -ms-transform: rotate(270deg);
-  -o-transform: rotate(270deg);
-  transform: rotate(270deg);
 }
 
 .badge-primary {
@@ -332,7 +335,7 @@
   padding: .2em !important;
 }
 
-.button-star {
+.btn-star {
   color: #d3d3d3 !important;
   background-color: transparent !important;
   padding: 0 !important;
@@ -341,4 +344,8 @@
   &:hover {
     color: orange !important;
   }
+}
+
+.global {
+  text-align: center !important;
 }
