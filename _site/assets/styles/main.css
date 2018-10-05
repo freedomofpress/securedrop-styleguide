@@ -140,6 +140,12 @@
 .btn-delete { background-color: #d55c5c; color: #fff; font-size: small; padding: 3px 10px; -moz-box-sizing: border-box; margin: 2px auto; cursor: pointer; text-align: center; text-decoration: none; }
 .btn-delete:hover { background: #fff; border-color: #d55c5c; color: #d55c5c; }
 
+.btn-starred { color: white !important; background-color: orange !important; border-color: 1px solid orange !important; padding: 3px 10px !important; -moz-box-sizing: border-box; margin: 2px auto !important; cursor: pointer; text-align: center; }
+.btn-starred:hover { color: orange !important; background-color: white !important; border-color: orange !important; }
+
+.btn-unstar { color: white !important; background-color: #e69500 !important; border-color: 1px solid #e69500 !important; padding: 3px 10px !important; -moz-box-sizing: border-box; margin: 2px auto !important; cursor: pointer; text-align: center; }
+.btn-unstar:hover { color: #e69500 !important; background-color: white !important; border-color: #e69500 !important; }
+
 .btn-close { float: right; font-size: 21px; font-weight: 700; line-height: 1; opacity: .2; padding: 0; cursor: pointer; background: transparent; border: 0; color: currentColor; outline: none; }
 
 .btn-default:active, .btn-default:focus, .btn-default:hover { background: #fff !important; color: #7985aa !important; border: 1px solid #7985aa !important; }

@@ -273,6 +273,40 @@
   }
 }
 
+.btn-starred {
+  color: white !important;
+  background-color: orange !important;
+  border-color: 1px solid orange !important;
+  padding: 3px 10px !important;
+  -moz-box-sizing: border-box;
+  margin: 2px auto !important;
+  cursor: pointer;
+  text-align: center;
+
+  &:hover {
+    color: orange !important;
+    background-color: white !important;
+    border-color: orange !important;
+  }
+}
+
+.btn-unstar {
+  color: white !important;
+  background-color: #e69500 !important;
+  border-color: 1px solid #e69500 !important;
+  padding: 3px 10px !important;
+  -moz-box-sizing: border-box;
+  margin: 2px auto !important;
+  cursor: pointer;
+  text-align: center;
+
+  &:hover {
+    color: #e69500 !important;
+    background-color: white !important;
+    border-color: #e69500 !important;
+  }
+}
+
 .btn-close {
   float: right;
   font-size: 21px;
