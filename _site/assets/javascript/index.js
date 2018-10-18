@@ -48,26 +48,7 @@ $('.rb-sidebar').on('click',function() {
     $(this).addClass('active');
 });
 
-// Get all the buttons in a node list
-var theButtons = document.querySelectorAll(".snippet");
 
-// Turn node list into a JS Array
-var buttonArray = Array.from(theButtons);
-
-// Loop over the buttons and give each its click event handler
-buttonArray.forEach(function(button){
-  button.addEventListener("click", function(){ 
-    // We will pass a reference to the current button to the function
-    myFunction(this); 
-  });
+$(".snippets").click(function() {
+  $(this).closest("div").find(".code-snippet").toggle();
 });
-
-// The function now expects to be passed a reference to the button that was clicked
-function myFunction(element) { 
-  // Get a reference to div that follows the button and then search that div
-  // for the first pre element inside of it:
-  var result = element.nextElementSibling.querySelector("pre");
-  
-  // All we need to do is toggle the visibility of that pre element
-  result.classList.toggle("code-snippet");
-}
