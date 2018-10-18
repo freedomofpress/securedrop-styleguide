@@ -171,6 +171,8 @@
 
 .global { text-align: center !important; }
 
+.code-snippet { display: none; }
+
 @media (min-width: 992px) { .display-xs { display: none !important; } }
 @media (max-width: 992px) { .display-md { display: none !important; } }
 .display-md { display: unset; }
