@@ -50,5 +50,5 @@ $('.rb-sidebar').on('click',function() {
 
 
 $(".snippets").click(function() {
-  $(this).closest("div").find(".code-snippet").toggle();
+  $(this).closest("div").next(".row").find(".code-snippet").toggle();
 });
