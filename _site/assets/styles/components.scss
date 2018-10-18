@@ -1,20 +1,21 @@
 .alert {
-  border-radius: 10px !important;
-  padding: 10px !important;
+  border-radius: 3px !important;
+  padding: 15px !important;
+  margin-bottom: 25px !important;
 	&-primary {
 		color: $oc-white !important;
 		background-color: $primary !important;
-		border-color: $primary !important;
+		border-color: transparent !important;
 	}
 	&-secondary {
 		color: $oc-black !important;
-    background-color: #f0f0f0 !important;
-		border-color: 1px solid #f0f0f0 !important;
+		background-color: #f0f0f0 !important;
+		border-color: transparent !important;
 	}
 	&-success {
 		color: #3f6910 !important;
 		background-color: #e5f8d1 !important;
-		border-color: 1px solid #e5f8d1 !important;
+		border-color: transparent !important;
 
 		& hr {
 			border-top-color: #1d731d;
@@ -25,14 +26,14 @@
 		}
 	}
 	&-warning {
-    color: #786600 !important;
+		color: #786600 !important;
 		background-color: #fff7c9 !important;
-		border-color: 1px solid #fff7c9 !important;
+		border-color: transparent !important;
 	}
 	&-danger {
 		color: #801f00 !important;
 		background-color: #ffd8cc !important;
-		border-color: 1px solid #ffd8cc !important;
+		border-color: transparent !important;
 
 		& hr {
 			border-top-color: #e15647;
@@ -217,30 +218,6 @@
   }
 }
 
-.btn-scroller {
-  border-radius: .25rem;
-  text-align: center;
-  display: inline-block;
-  -webkit-transition-duration: .1s;
-  -o-transition-duration: .1s;
-  -webkit-transition-timing-function: linear;
-  -o-transition-timing-function: linear;
-  -webkit-transition-property: background-color,color,border-color;
-  -o-transition-property: background-color,color,border-color;
-  padding: .5rem 1rem;
-  transition-duration: .1s;
-  transition-timing-function: linear;
-  transition-property: background-color,color,border-color;
-  color: #00000b;
-  background-color: #dddde0;
-  border: 0;
-}
-
-.btn-scroller:active, .btn-scroller:focus, .btn-scroller:hover {
-  color: #00000b;
-  background-color: #aaaab0;
-}
-
 .btn-default {
   background: $primary;
   box-sizing: border-box;
@@ -410,7 +387,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #ccc;
+  background-color: #dee2e6;
   -webkit-transition: .4s;
   transition: .4s;
 }
@@ -441,7 +418,6 @@ input:checked + .slider:before {
   transform: translateX(18px);
 }
 
-/* Rounded sliders */
 .slider.round {
   border-radius: 18px;
 }

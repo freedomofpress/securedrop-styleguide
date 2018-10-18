@@ -15,6 +15,7 @@
   <noscript>
     <style type="text/css">
         .code-snippet {display:block;}
+        .snippets,.slider-round,.switch,.toggle {display:none;}
     </style>
 </noscript>
 </head>
@@ -137,60 +138,120 @@
         <p class="text-muted">Provide contextual feedback messages for typical user actions with the handful of available and flexible alert messages.</p>
     </div>
     <div class="row p-5 bg-light">
-      <p class="text-muted">Toggle Snippet</p>
+      <p class="text-muted toggle">Toggle Snippet</p>
       <label class="switch">
 	  <input class="snippets" type="checkbox">
 	  <span class="slider round"></span>
 	  </label>
         <div class="col-12 alert alert-primary" role="alert">
             <p class="mb-0">Heads up! This alert needs your attention, but it's not super important.</p>
-				<pre class="p-2 mt-3 mr-5 mb-0 prettyprint rb-code code-snippet" style="border: none; color: #fff;">
+		</div>
+				<pre class="bg-light p-2 mt-1 mr-5 mb-0 prettyprint rb-code code-snippet" style="border: none;">
 .alert-primary {
-border-radius: 10px !important;
-padding: 10px !important;
-margin-bottom: 1rem;
+border-radius: 3px !important;
+padding: 15px !important;
+margin-bottom: 25px;
 position: relative;
 color: #fff !important;
 background-color: #045fb4 !important;
-border-color: #045fb4 !important;}
-				</pre>
-				</div>
+border-color: transparent !important;}</pre>
         <div class="col-12 alert alert-secondary" role="alert">
             <p class="mb-0">Well done! This alert will show you some extra information.</p>
-            				<div>
-					<pre class="p-2 mt-3 mr-5 mb-0 prettyprint rb-code code-snippet" style="border: none; color: #fff;">
-.alert-primary {
-border-radius: 10px !important;
-padding: 10px !important;
-margin-bottom: 1rem;
-position: relative;
-color: #fff !important;
-background-color: #045fb4 !important;
-border-color: #045fb4 !important;}
-					</pre></div>
         </div>
+        	<pre class="bg-light p-2 mt-1 mr-5 mb-0 prettyprint rb-code code-snippet" style="border: none;">
+.alert-info {
+border-radius: 3px !important;
+padding: 15px !important;
+margin-bottom: 25px;
+position: relative;
+background-color: #f0f0f0 !important;
+border-color: transparent !important;}</pre>
         <div class="col-12 alert alert-success" role="alert">
             <p class="mb-0">Well done! You successfully read this important alert link message.</p>
         </div>
+            <pre class="bg-light p-2 mt-1 mr-5 mb-0 prettyprint rb-code code-snippet" style="border: none;">
+.alert-success {
+border-radius: 3px !important;
+padding: 15px !important;
+margin-bottom: 25px;
+position: relative;
+background-color: #e5f8d1 !important;
+color: #3f6910 !important; 
+border-color: transparent !important;}</pre>
         <div class="col-12 alert alert-warning" role="alert">
             <p class="mb-0">Warning! Better check yourself, you're not looking too good.</p>
         </div>
+            <pre class="bg-light p-2 mt-1 mr-5 mb-0 prettyprint rb-code code-snippet" style="border: none;">
+.alert-warning {
+border-radius: 3px !important;
+padding: 15px !important;
+margin-bottom: 25px;
+position: relative;
+color: #786600 !important;
+background-color: #fff7c9 !important;
+border-color: transparent !important;}</pre>
         <div class="col-12 alert alert-danger" role="alert">
             <p class="mb-0">This is a danger alert — check it out!</p>
         </div>
-        <p>With close button:</p>
+            <pre class="bg-light p-2 mt-1 mr-5 mb-0 prettyprint rb-code code-snippet" style="border: none;">
+.alert-danger {
+border-radius: 3px !important;
+padding: 15px !important;
+margin-bottom: 25px;
+position: relative;
+color: #801f00 !important;
+background-color: #ffd8cc !important;
+border-color: transparent !important;}</pre>
         <div class="col-12 alert alert-success" role="alert">
           <button class="btn-close" type="button" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">×</span></button>
-            <p class="mb-0">Well done! You successfully read this important alert link message.</p>
+            <p class="mb-0">Well done! You successfully read this important alert link message with a close button.</p>
         </div>
-        <p>Global alert:</p>
+		<pre class="bg-light p-2 mt-1 mr-5 mb-4 prettyprint rb-code code-snippet" style="border: none;">
+.alert-success {
+border-radius: 3px !important;
+padding: 15px !important;
+margin-bottom: 25px;
+position: relative;
+background-color: #e5f8d1 !important;
+color: #3f6910 !important; 
+border-color: transparent !important;}
+
+.btn-close {
+float: right;
+font-size: 21px;
+font-weight: 700;
+line-height: 1;
+opacity: .2;
+padding: 0;
+cursor: pointer;
+background: transparent;
+border: 0;
+color: currentColor;
+outline: none;}</pre>
         <div class="col-12 alert alert-success global" role="alert">
-            <p class="mb-0">Well done! You successfully read this important message.</p>
+            <p class="mb-0">Well done! You successfully read this important global message.</p>
         </div>
-        <p>With icons:</p>
+		<pre class="bg-light p-2 mt-1 mr-5 mb-4 prettyprint rb-code code-snippet" style="border: none;">
+.alert-success .global {
+border-radius: 3px !important;
+padding: 15px !important;
+margin-bottom: 25px;
+position: relative;
+background-color: #e5f8d1 !important;
+color: #3f6910 !important; 
+border-color: transparent !important;
+text-align: center;}</pre>
         <div class="col-12 alert alert-secondary" role="alert">
             <p class="mb-0"><i class="fas fa-exclamation-circle"></i> Well done! You successfully read this message with an icon.</p>
         </div>
+		<pre class="bg-light p-2 mt-1 mr-5 prettyprint rb-code code-snippet" style="border: none;">
+.alert-info .icon {
+border-radius: 3px !important;
+padding: 15px !important;
+margin-bottom: 25px;
+position: relative;
+background-color: #f0f0f0 !important;
+border-color: transparent !important;}</pre>
         <div class="col-12 alert alert-secondary" role="alert">
                     <h4 class="alert-header">Well done!</h4>
             <p>Aww yeah, you successfully read this important alert message. This example text is going to run a bit longer so that you can see how spacing within an alert works with this kind of content.</p>
@@ -204,7 +265,7 @@ border-color: #045fb4 !important;}
     <!--p class="text-muted mt-3">Click on any button to get the code snippet.</p-->
 <div class="row bg-light p-5">
     <div class="col-xs-12 col-sm-6 col-md-6 p-1">
-		<p class="text-muted">Toggle Snippet
+		<p class="text-muted toggle">Toggle Snippet
 		<label class="switch">
 		<input class="snippets" type="checkbox">
 		<span class="slider round"></span>
@@ -286,7 +347,7 @@ border-color: transparent;
 color: #034482 !important;}</pre></div>
     </div>
     <div class="col-xs-12 col-sm-6 col-md-6 p-1">
-		<p class="text-muted">Toggle Snippet
+		<p class="text-muted toggle">Toggle Snippet
 		<label class="switch">
 		<input class="snippets" type="checkbox">
 		<span class="slider round"></span>
@@ -366,7 +427,7 @@ color: #fff !important;}</pre></div>
 </div>
 <div class="row bg-light pt-0 pl-5">
 	<div class="col-xs-12 col-sm-6 col-md-6 p-1">
-		<p class="text-muted">Toggle Snippet
+		<p class="text-muted toggle">Toggle Snippet
 		<label class="switch">
 		<input class="snippets" type="checkbox">
 		<span class="slider round"></span>
@@ -449,7 +510,7 @@ color: #034482 !important;}</pre></div>
 </div>
 <div class="row bg-light p-5 mt-3">
     <div class="col-xs-12 col-sm-6 col-md-6 p-1">
-		<p class="text-muted">Toggle Snippet
+		<p class="text-muted toggle">Toggle Snippet
 		<label class="switch">
 		<input class="snippets" type="checkbox">
 		<span class="slider round"></span>
@@ -564,8 +625,14 @@ color: #d55c5c;}</pre></div>
     <p class="text-muted mt-3">Press any line to get the code snippet.</p>
 </div>
 <div class="row p-5 bg-light">
+	  <p class="text-muted pl-3">Toggle Snippet
+      <label class="switch">
+	  <input class="snippets" type="checkbox">
+	  <span class="slider round"></span>
+	  </label>
+	  </p>
     <div class="col-12">
-        <h2 class="snippet">Example heading <span class="badge badge-primary">New</span></h2>
+        <h2>Example heading <span class="badge badge-primary">New</span></h2>
          <div>
         <pre class="bg-light p-2 mt-3 mr-5 prettyprint rb-code code-snippet" style="border: none;">
 .badge-primary {
