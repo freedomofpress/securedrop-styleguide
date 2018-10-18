@@ -1,7 +1,11 @@
 <h1 id="paginate"></h1>
 <div class="page-header mb-4 mt-5">
     <h2 class="b-border">Pagination</h2>
-    <!--p class="text-muted">Some Description about pagination.</p-->
+      <p class="text-muted toggle pt-2">Toggle Snippets
+      <label class="switch">
+	  <input class="snippets" type="checkbox">
+	  <span class="slider round"></span>
+	  </label></p>
 </div>
 <div class="row bg-light p-5">
     <nav aria-label="...">
@@ -20,5 +24,24 @@
                 <a class="page-link" href="#" onclick="return false;">Next</a>
             </li>
         </ul>
+        <pre class="bg-light p-2 mt-3 mr-5 mb-0 prettyprint rb-code code-snippet" style="border: none;">
+.pagination {
+display: flex;
+padding-left: 0;
+list-style: none;
+border-radius: .25rem;}
+.page-link {
+position: relative;
+display: block;
+padding: .5rem .75rem;
+margin-left: -1px;
+line-height: 1.25;
+color: #007bff;
+background-color: #fff;
+border: 1px solid #dee2e6;
+cursor: pointer;
+.paginate-active {
+background-color: #045fb4 !important;
+color: white !important;}</pre>
     </nav>
 </div>
