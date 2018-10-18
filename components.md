@@ -11,6 +11,7 @@
   - tables: Tables
   - cards: Cards
   - paginate: Pagination
+  - snippets: Snippets
 ---
 
 This is the components page.

@@ -106,7 +106,7 @@
 
 .color-gray-2 { color: #868e96; }
 
-.rb-code { font-family: 'Fira Mono', monospace !important; }
+.rb-code { font-family: 'Fira Mono', monospace !important; height: 200px; }
 
 .rb-isBold { font-weight: bold; }
 
