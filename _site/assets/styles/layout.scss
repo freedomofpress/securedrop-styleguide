@@ -145,3 +145,16 @@
 .b-border {
   border-bottom: 2px solid lightgrey !important;
 }
+
+.no-js-banner {
+    width:100%;
+    position:fixed;
+    bottom:0px;
+    background-color: #034482;
+    color: #fff;
+    display: none;
+    padding-top: .5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: .5rem;
+}
