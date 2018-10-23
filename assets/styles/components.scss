@@ -366,6 +366,10 @@
 	display: none;
 }
 
+.code-snippet-2 {
+	display: none;
+}
+
 .switch {
   position: relative;
   display: inline-block;
@@ -429,7 +433,4 @@ input:checked + .slider:before {
 .bg-grey {
 	background-color: #dee2e6 !important;
 	color: #000;
-	width: auto;
-	height: auto !important;
 }
-

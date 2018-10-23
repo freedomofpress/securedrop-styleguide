@@ -54,5 +54,5 @@ $(".snippets").click(function() {
 });
 
 $(".snippets-buttons").click(function() {
-  $(this).closest("div").find(".code-snippet").toggle();
+  $(this).closest("div").find(".code-snippet-2").toggle();
 });

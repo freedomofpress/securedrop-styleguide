@@ -50,7 +50,7 @@
 
 .b-border { border-bottom: 2px solid lightgrey !important; }
 
-.no-js-banner { width: 100%; position: fixed; bottom: 0px; background-color: #034482; color: #fff; display: none; padding-top: .5rem; padding-left: 1rem; padding-right: 1rem; padding-bottom: .5rem; }
+.no-js-banner { width: 100%; position: fixed; bottom: 0px; background-color: #fff7c9; color: #786600; display: none; padding-top: .5rem; padding-left: 1rem; padding-right: 1rem; padding-bottom: .5rem; }
 
 .color { height: 100px; }
 
@@ -171,6 +171,8 @@
 
 .code-snippet { display: none; }
 
+.code-snippet-2 { display: none; }
+
 .switch { position: relative; display: inline-block; width: 44px; height: 26px; margin-left: 10px; }
 
 .switch input { opacity: 0; width: 0; height: 0; }
@@ -189,7 +191,7 @@ input:checked + .slider:before { -webkit-transform: translateX(18px); -ms-transf
 
 .slider.round:before { border-radius: 50%; }
 
-.bg-grey { background-color: #dee2e6 !important; color: #000; width: auto; height: auto !important; }
+.bg-grey { background-color: #dee2e6 !important; color: #000; }
 
 @media (min-width: 992px) { .display-xs { display: none !important; } }
 @media (max-width: 992px) { .display-md { display: none !important; } }
