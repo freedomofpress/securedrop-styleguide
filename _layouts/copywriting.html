@@ -4,7 +4,7 @@
 <body>
 {% include navbar.html %}
 <div class="row">
-    <div class="col-md-3 col-sm-4 col-xs-4 p-0">
+    <div class="col-md-3 hidden-sm">
         <div class="row" style="height: 100%">
             <div class="col-md-6 col-sm-6 col-xs-6 p-0 display-md">
                 {% include navbar_side.html sidebarClassName="rb-sidebar__1" %}
@@ -14,7 +14,7 @@
             </div>
         </div>
     </div>
-    <div class="col-lg-9 pt-3 pl-5">
+    <div class="col-lg-7 pt-3 pl-5 pr-5">
       <!--{{ content }}-->
         {% include copywriting/voice.html %}
     {% include scrollspy.html %}
