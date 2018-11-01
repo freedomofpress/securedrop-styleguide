@@ -103,6 +103,12 @@
       
     
       
+        <a href="#icons" class="sidebar__link__darkGray"><li class="list-group-item rb-sidebar">
+          Icons
+        </li></a>
+      
+    
+      
         <a href="#assets" class="sidebar__link__darkGray"><li class="list-group-item rb-sidebar">
           Assets
         </li></a>
@@ -347,6 +353,49 @@
           });
         </pre>
     </div>
+</div>
+
+          <h1 id="icons"></h1>
+<div class="page-header mb-4 mt-5">
+    <h2 class="b-border">Icons</h2>
+</div>
+<div class="row bg-light p-5">
+    <nav aria-label="...">
+        <ul class="pagination m-0">
+            <li class="page-item disabled">
+                <span class="page-link">Previous</span>
+            </li>
+            <li class="page-item"><a class="page-link" href="#" onclick="return false;">1</a></li>
+            <li class="page-item">
+                <span class="page-link rb-paginate-active">
+	                2<span class="sr-only">(current)</span>
+                </span>
+            </li>
+            <li class="page-item"><a class="page-link" href="#" onclick="return false;">3</a></li>
+            <li class="page-item">
+                <a class="page-link" href="#" onclick="return false;">Next</a>
+            </li>
+        </ul>
+        <pre class="bg-grey p-2 mt-3 mr-5 mb-0 prettyprint rb-code code-snippet" style="border: none;">
+.pagination {
+display: flex;
+padding-left: 0;
+list-style: none;
+border-radius: .25rem;}
+.page-link {
+position: relative;
+display: block;
+padding: .5rem .75rem;
+margin-left: -1px;
+line-height: 1.25;
+color: #007bff;
+background-color: #fff;
+border: 1px solid #dee2e6;
+cursor: pointer;
+.paginate-active {
+background-color: #045fb4 !important;
+color: white !important;}</pre>
+    </nav>
 </div>
 
           <div id="assets" class="page-header mb-4 mt-5">
