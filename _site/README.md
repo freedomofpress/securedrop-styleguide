@@ -43,3 +43,5 @@ Afterwards, execute the following command to build the project and to be able to
 
 
 That's it! Now you can begin to modify the files and they will be automatically built and displayed on your localhost upon a page refresh.
+
+When you're done with the changes, press Ctrl+C to stop the localhost process.
