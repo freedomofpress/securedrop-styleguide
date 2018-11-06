@@ -1,25 +1,22 @@
-### Note
-The official repo has been moved to SecureDrop Infrastructure.
-For comments, issues, Pull/Merge Requests please head over there.
-
 # About
 
 SecureDrop is an open source whistleblower submission system that media organizations can install to securely accept documents from anonymous sources.
 
-This guide aims to provide standards, principles and components to design consistent views related to the SecureDrop project. These pages are a living document and we welcome contributions, feedback and suggestions.
+This guide aims to provide standards, principles and components to design consistent views related to the SecureDrop project and associated websites and documents.
 
+This style guide showcases a potential future state for SecureDrop, not the current state. It is a work in progress and subject to discussion within the SecureDrop community. It was originally created by [URA Design](https://ura.design/) with input from the SecureDrop community during mid-to-late 2018. See the [related forum thread](https://forum.securedrop.org/t/securedrop-ux-style-guide/855/36) for more background.
 
 # Getting started
 
-The SecureDrop styleguide is based on Bootstrap, an open-source toolkit for developing with HTML, CSS, and JS. We are currently on v4.1.0.
+The SecureDrop style guide is based on Bootstrap, an open-source toolkit for developing with HTML, CSS, and JS. We are currently on v4.1.0.
 
-To use the SecureDrop styleguide, you can download our scss style (components.scss) and import it in your project with bootstrap included. SASS is a CSS extension language.
+To use the SecureDrop style guide, you can download our scss style (components.scss) and import it in your project with bootstrap included. SASS is a CSS extension language.
 
-If you want to use SASS you can download the complete archive for the styleguide. The scss folder under assets contains all the sass files. Since we use bootstrap, we only add a few styles without modifying bootstrap core or defining new elements whenever possible.
+If you want to use SASS you can download the complete archive for the style guide. The scss folder under assets contains all the sass files. Since we use bootstrap, we only add a few styles without modifying bootstrap core or defining new elements whenever possible.
 
 Bootstrap contains a few JavaScript libraries for extra interaction with the DOM. We use these libraries but do not add extra JavaScript, so that only few elements are affected if you disable JavaScript.
 
-This styleguide has been built using Jekyll. Jekyll is a simple, blog-aware, static site generator. You can build this yourself by installing Jekyll.
+This style guide has been built using Jekyll. Jekyll is a simple, blog-aware, static site generator. You can build this yourself by installing Jekyll.
 
 # Building
 
